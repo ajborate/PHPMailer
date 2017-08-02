@@ -65,8 +65,7 @@ class PHPMailerTest extends PHPUnit_Framework_TestCase
     /**
      * Run before each test is started.
      */
-    public function setUp()
-    {
+    public function setUp() {
         if (file_exists('testbootstrap.php')) {
             include 'testbootstrap.php'; //Overrides go in here
         }
